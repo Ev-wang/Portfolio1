@@ -4,43 +4,33 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <title>Portfolio MainPage</title>
+    <title>aboutme</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/apphome.css">
     <link rel="stylesheet" href="css/appnav.css">
-
   </head>
   <nav class="cell small-12 medium-9 large-10 margin-top">
   <ul>
-  <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
     <li><a href="gallery.html">Gallery</a></li>
     <li><a href="designs.html">Designs</a></li>
-      <li><a href="contactme.html">Contact</a></li>
+    <li><a href="contactme.html">Contact</a></li>
+    <li><a href="portrait.html">Home</a></li>
   </ul>
-</nav>
-
-
+  </nav>
   <body>
+    <h1>Gallery</h1>
     <style>
     body{
-    background-image: url("image/mainpage.jpg");
+    background-image: url("image/gallery.jpg");
     background-color: #F8F8F8;
     }
+    img{
+
+    }
     </style>
-
-    <h1>Welcoem to My Portfolio</h1>
-    <h4>This is an website help you understand me</h4>
-<button onclick="ShowTime()" class="center">ShowTime</button>
-<p id="time"></p>
-<script>
-
-function ShowTime() {
-    var d = new Date();
-
-    document.getElementById("time").innerHTML = d;
-}
-</script>
+<img src="image/gallery1.jpg" alt="Gallery Collection" class="float-left">
+<img src="image/gallery2.jpg" alt="Gallery Collection" class="float-right">
 
 
 

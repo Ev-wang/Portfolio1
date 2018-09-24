@@ -1,0 +1,39 @@
+nav {
+margin: 20px;
+text-align:center;
+padding:25px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+nav ul{
+  list-style-type: none; /* remove bullets */
+  margin: auto;
+  padding: auto;
+
+  text-decoration-color: gold;
+  word-spacing: 35px;
+
+}
+
+nav li {
+  display: inline;
+pedding: none;
+font-size: 30px;
+word-spacing: 25px;
+font-family: 'Montserrat', sans-serif;
+}
+nav li a:link, nav li a:visited{
+  text-decoration: none;
+  color: lightgrey;
+  border-radius: 50px;/*round the corners on the nav items*/
+  opacity: 0.80px;
+  padding: 7px 7px;
+  margin: 1px;
+  font-size: 1.0em;
+  }
+  nav li a:hover{
+background-color: darkgrey;
+  }
